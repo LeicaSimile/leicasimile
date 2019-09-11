@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def bot_list(request):
+    return render(request, "bots/bot_list.html", {})
